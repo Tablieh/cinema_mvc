@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+html{
+
+    background-color: rgb(178, 178, 180);
+background-size: cover;
+background-attachment: fixed;
+
+}
+#comment{
+    display: flex;
+    justify-content: right;
+   
+}
+main {
+    margin-top: 2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid rgb(221, 221, 221);
+}
+p, td{
+ color: rgb(37, 5, 36);
+}
+.uk-table th {
+    color: blanchedalmond;
+    background:  #2666b9b2;
+}
+.uk-table td a {
+    color: rgb(10, 1, 12);
+}
+.uk-text-center{
+    color: rgb(23, 20, 220);
+}
+
+h1{
+    color: rgb(70, 16, 67);
+}
+.uk-navbar-nav>li>a  {
+    color: crimson;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background:  rgb(147, 147, 253);
+}
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.content{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:center;
+}
+uk-link, a {
+    color: #f8f6f6;
+}
+#cast{
+    text-align: center;
+}
+body{
+    background-color:  #2666b9b2;
+}
+
+.uk-icon-link{
+    color: crimson;
+}
+.lolo p{
+    color: black;
+}
